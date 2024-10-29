@@ -16,6 +16,9 @@ elif student_major == "HIST":
 elif student_major== "MKT":
  major_name= "Marketing"
  Department_Office= "Westly Hall, Room 114"
+elif student_major == "ART":
+ major_name = "Fine Arts"
+ Department_Office = "Arts Hall, Room 188" 
 else:
  major_name= "Unknown"
  Department_Office= "Office not found" 
