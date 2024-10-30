@@ -1,13 +1,13 @@
-hours_worked= float(input("hours worked: "))
-pay_rate= float(input("Pay Rate: 4"))
-if hours_worked > 40:
-    regular_pay= hours_worked * 40,
-    overtime= (hours_worked - 40) * 1.5,
-    total_pay= regular_pay + overtime
+# hours_worked= float(input("hours worked: "))
+# pay_rate= float(input("Pay Rate: "))
+# if hours_worked > 40:
+#     regular_pay= hours_worked * 40,
+#     overtime= (hours_worked - 40) * 1.5,
+#     total_pay= regular_pay + overtime
 
-else:
-   total_pay= hours_worked * pay_rate
-print(f"your pay check is {total_pay}")
+# else:
+#    total_pay= hours_worked * pay_rate
+# print(f"your pay check is {total_pay}")
      
 hours_worked = float(input("Hours worked: "))
 pay_rate = float(input("Pay Rate: "))
